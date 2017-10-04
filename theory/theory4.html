@@ -113,7 +113,13 @@
             <div class="col-lg-8 col-lg-offset-2">
 			<br><br><br>
                 <h2>Chapter 11 - Data Types</h2>
-                <h3>Base 10</h3>
+                <h3>ASCII</h3>
+				<p>ASCII - American Standard Character Information Interchange</p>
+				<p>ASCII started with 7 bits giving 128 combinations
+				Extended ASCII added another bit increasing the combinations up to 256
+				UNICODE originally used 16 bits giving 65000+ combinations but the restrictions were later lifted
+				</p>
+				<h3>Base 10</h3>
 				<p>The base 10 number system is called Denary, and it is what most people think of numbers as in the western world. What is meant by the number system
 				being base 10, is that there are 10 characters to represent numbers, for denary, these are 0-9. Once we have reached the number 9 and want to add one more
 				we just set the first column to 0, and set the next highest column to 1.</p>
@@ -140,6 +146,21 @@
 				in the '1's column. Then we take the number we have left after dividing and repeat the process moving up the hexadecimal number. In order to convert back to denary we just
 				times each character by what that column represents. For example the 'F' in 'F7' is in the 16 coloumn and represents 15, when these are timesed it makes 240. Then we add on the
 				next character which in the example is in the 1 column so it is just worth 7 and when added on this makes 247.</p>
+				<h3>Hexadecimal to Denary Examples</h3>
+				<p>1.) 12 = 18</br>1 * 16 = 16 </br>2 * 1 = 2</br>16 + 2 = 18</p>
+				<p>2.) FF = 255</br>15 * 16 = 240</br>15 * 1 = 15</br>240 + 15 = 255</p>
+				<p>3.) 3D = 61</br>3 * 16 = 48</br>13 * 1 = 13</br>48 + 13 = 61</p>
+				<p>4.) 2BE = 702</br>2 * 256 = 512</br>11 * 16 = 176</br>14 * 1 = 14</br>512 + 176 + 14 = 702</p>
+				<p>5.) AB5 = 2741</br>10 * 256 = 2560</br>11 * 16 = 176</br>5 * 1 = 5</br>2560 + 176 + 5 = 2741</p>
+				<h3>Practice Examples</h3>
+				<p>1.) Convert the denary number 273 into:</br>a) A 16 bit binary number</br>b) A hexadecimal</p>
+				<p style="font-style:italic;">a) 0000000100010001</br>b) 111</p>
+				<p>2.) Convert -89 into binary using:</br>a)8-bit sign and magnitude representation</br>8-bit two's complement representation</p>
+				<p style="font-style:italic;">a) 11011001</br>b) 10100111</p>
+				<p>3.) Explain how image size and colour depth affect the size of an image file?</p>
+				<p style="font-style:italic;">The bigger the colour depth the larger the image file, this is because for the colour depth to be larger then there must be more bits for each pixel. The size of the image will only affect bitmap images as vector images are simply some lines of maths which create the image, therefore the size of a vector image will not affect the file size whereas with a bitmap file the larger the image size the more pixels that need to be saved in the file so a larger file size.</p>
+				<p>What metadata is stored with an image file?</p>
+				<p style="font-style:italic;">Place Taken, Colour depth, file size, etc.</p>
             </div>
 		</section>
         </div>
